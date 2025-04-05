@@ -63,6 +63,11 @@
   <summary><h3>6. 컨텍스트 스위칭 시에는 어떤 일들이 일어나나요?</h3></summary>
 <ul>
 <li> 프로세스와 스레드는 컨텍스트 스위칭이 발생했을 때 어떤 차이가 있을까요?</li>
+  https://engineerinsight.tistory.com/284 <br/>
+  컨텍스트 스위칭: 실행중인 스레드를 다른 스레드로 교체<br/>
+  프로세스1의 스레드1 → 프로세스2의 스레드2 = Process Context Switching<br/>
+  프로세스1의 스레드1 → 프로세스1의 스레드2 = Thread Context Switching
+  
 <li> 컨텍스트 스위칭이 발생할 때, 기존의 프로세스 정보는 커널스택에 어떠한 형식으로 저장되나요?</li>
 <li> 컨텍스트 스위칭은 언제 일어날까요?</li>
 </ul>
